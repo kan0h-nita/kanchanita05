@@ -6,4 +6,8 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-n = int(input())
+n = int(input("กรอกจำนวนเต็ม:"))
+if n%2==0:
+    print("Evan")
+else:
+    print("Odd")
